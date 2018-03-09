@@ -34,6 +34,7 @@ Partial Class MenuPrincipal
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button11 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -137,11 +138,21 @@ Partial Class MenuPrincipal
         Me.PictureBox1.TabIndex = 10
         Me.PictureBox1.TabStop = False
         '
+        'Button11
+        '
+        Me.Button11.Location = New System.Drawing.Point(420, 322)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(139, 23)
+        Me.Button11.TabIndex = 11
+        Me.Button11.Text = "Cerrar Sesion"
+        Me.Button11.UseVisualStyleBackColor = True
+        '
         'MenuPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(686, 341)
+        Me.ClientSize = New System.Drawing.Size(686, 357)
+        Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button9)
@@ -171,4 +182,5 @@ Partial Class MenuPrincipal
     Friend WithEvents Button9 As Button
     Friend WithEvents Button10 As Button
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Button11 As Button
 End Class

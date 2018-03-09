@@ -93,6 +93,12 @@
   <ItemGroup>
     <Compile Include="Conection\Globales.vb" />
     <Compile Include="Conection\Oracle.vb" />
+    <Compile Include="Interfaces\Frm_datos.Designer.vb">
+      <DependentUpon>Frm_datos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Frm_datos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Interfaces\Login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +129,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Interfaces\Frm_datos.resx">
+      <DependentUpon>Frm_datos.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>

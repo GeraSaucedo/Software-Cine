@@ -17,6 +17,7 @@ Module Globales
     Public colNueva As String
     Public UsuarioConectado As String
     Public El_Nombre As String
+    Public Tipo_usuario As Integer
 
     Public cnx As OracleConnection
 End Module

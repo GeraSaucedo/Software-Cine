@@ -69,6 +69,8 @@ Partial Class Login
         'lblUser
         '
         Me.lblUser.AutoSize = True
+        Me.lblUser.BackColor = System.Drawing.Color.Blue
+        Me.lblUser.ForeColor = System.Drawing.Color.White
         Me.lblUser.Location = New System.Drawing.Point(24, 176)
         Me.lblUser.Name = "lblUser"
         Me.lblUser.Size = New System.Drawing.Size(43, 17)
@@ -79,6 +81,7 @@ Partial Class Login
         'Lblpass
         '
         Me.Lblpass.AutoSize = True
+        Me.Lblpass.ForeColor = System.Drawing.Color.White
         Me.Lblpass.Location = New System.Drawing.Point(21, 222)
         Me.Lblpass.Name = "Lblpass"
         Me.Lblpass.Size = New System.Drawing.Size(61, 13)
@@ -100,6 +103,7 @@ Partial Class Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Blue
         Me.ClientSize = New System.Drawing.Size(245, 345)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Lblpass)
