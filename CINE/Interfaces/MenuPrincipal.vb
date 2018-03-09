@@ -4,6 +4,6 @@
     End Sub
 
     Private Sub MenuPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        ' ver si detecta cambios'
     End Sub
 End Class
