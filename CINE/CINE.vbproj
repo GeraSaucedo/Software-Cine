@@ -99,6 +99,12 @@
     <Compile Include="Interfaces\Frm_datos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Interfaces\frm_productos.Designer.vb">
+      <DependentUpon>frm_productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frm_productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Interfaces\frm_proveedores.Designer.vb">
       <DependentUpon>frm_proveedores.vb</DependentUpon>
     </Compile>
@@ -137,6 +143,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Interfaces\Frm_datos.resx">
       <DependentUpon>Frm_datos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frm_productos.resx">
+      <DependentUpon>frm_productos.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\frm_proveedores.resx">
       <DependentUpon>frm_proveedores.vb</DependentUpon>
