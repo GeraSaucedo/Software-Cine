@@ -117,6 +117,12 @@
     <Compile Include="Interfaces\frm_proveedores.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Interfaces\frm_ventas.Designer.vb">
+      <DependentUpon>frm_ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frm_ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Interfaces\Login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\frm_proveedores.resx">
       <DependentUpon>frm_proveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frm_ventas.resx">
+      <DependentUpon>frm_ventas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Login.resx">
       <DependentUpon>Login.vb</DependentUpon>

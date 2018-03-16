@@ -7,4 +7,12 @@ Public Class Login
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub btnEntrar_Click(sender As Object, e As EventArgs) Handles btnEntrar.Click
+        MenuPrincipal.Show()
+        Me.Close()
+
+
+
+    End Sub
 End Class

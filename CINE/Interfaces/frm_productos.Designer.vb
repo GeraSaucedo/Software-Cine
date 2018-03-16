@@ -50,6 +50,8 @@ Partial Class frm_productos
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TextBox8
@@ -287,11 +289,21 @@ Partial Class frm_productos
         Me.TextBox4.Size = New System.Drawing.Size(67, 20)
         Me.TextBox4.TabIndex = 87
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.PictureBox1.Location = New System.Drawing.Point(-1, 35)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(572, 10)
+        Me.PictureBox1.TabIndex = 91
+        Me.PictureBox1.TabStop = False
+        '
         'frm_productos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(562, 293)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label9)
@@ -322,6 +334,7 @@ Partial Class frm_productos
         Me.Controls.Add(Me.Label14)
         Me.Name = "frm_productos"
         Me.Text = "frm_productos"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -355,4 +368,5 @@ Partial Class frm_productos
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
