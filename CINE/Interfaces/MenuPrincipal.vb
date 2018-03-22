@@ -28,7 +28,8 @@
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Frm_datos.Show()
+        Dim frm_empleados As New Frm_datos
+        frm_empleados.Show()
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
