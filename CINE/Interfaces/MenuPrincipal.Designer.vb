@@ -23,110 +23,110 @@ Partial Class MenuPrincipal
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MenuPrincipal))
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
+        Me.btnClientes = New System.Windows.Forms.Button()
+        Me.btnProductos = New System.Windows.Forms.Button()
+        Me.btnProveedores = New System.Windows.Forms.Button()
+        Me.btnVentas = New System.Windows.Forms.Button()
+        Me.btnEmpleados = New System.Windows.Forms.Button()
+        Me.btnDevoluciones = New System.Windows.Forms.Button()
+        Me.btnFunciones = New System.Windows.Forms.Button()
+        Me.btnBoletos = New System.Windows.Forms.Button()
+        Me.btnPeliculas = New System.Windows.Forms.Button()
+        Me.btnEstadisticas = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button11 = New System.Windows.Forms.Button()
+        Me.btnCerrarSesion = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnClientes
         '
-        Me.Button1.Location = New System.Drawing.Point(338, 30)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(142, 44)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Clientes"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnClientes.Location = New System.Drawing.Point(338, 30)
+        Me.btnClientes.Name = "btnClientes"
+        Me.btnClientes.Size = New System.Drawing.Size(142, 44)
+        Me.btnClientes.TabIndex = 0
+        Me.btnClientes.Text = "Clientes"
+        Me.btnClientes.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnProductos
         '
-        Me.Button2.Location = New System.Drawing.Point(508, 30)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(142, 44)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Productos"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnProductos.Location = New System.Drawing.Point(508, 30)
+        Me.btnProductos.Name = "btnProductos"
+        Me.btnProductos.Size = New System.Drawing.Size(142, 44)
+        Me.btnProductos.TabIndex = 1
+        Me.btnProductos.Text = "Productos"
+        Me.btnProductos.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnProveedores
         '
-        Me.Button3.Location = New System.Drawing.Point(338, 90)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(142, 44)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Proveedores"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnProveedores.Location = New System.Drawing.Point(338, 90)
+        Me.btnProveedores.Name = "btnProveedores"
+        Me.btnProveedores.Size = New System.Drawing.Size(142, 44)
+        Me.btnProveedores.TabIndex = 2
+        Me.btnProveedores.Text = "Proveedores"
+        Me.btnProveedores.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btnVentas
         '
-        Me.Button4.Location = New System.Drawing.Point(508, 90)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(142, 44)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Ventas"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnVentas.Location = New System.Drawing.Point(508, 90)
+        Me.btnVentas.Name = "btnVentas"
+        Me.btnVentas.Size = New System.Drawing.Size(142, 44)
+        Me.btnVentas.TabIndex = 3
+        Me.btnVentas.Text = "Ventas"
+        Me.btnVentas.UseVisualStyleBackColor = True
         '
-        'Button5
+        'btnEmpleados
         '
-        Me.Button5.Location = New System.Drawing.Point(338, 151)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(142, 44)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Empleados"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.btnEmpleados.Location = New System.Drawing.Point(338, 151)
+        Me.btnEmpleados.Name = "btnEmpleados"
+        Me.btnEmpleados.Size = New System.Drawing.Size(142, 44)
+        Me.btnEmpleados.TabIndex = 4
+        Me.btnEmpleados.Text = "Empleados"
+        Me.btnEmpleados.UseVisualStyleBackColor = True
         '
-        'Button6
+        'btnDevoluciones
         '
-        Me.Button6.Location = New System.Drawing.Point(508, 151)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(142, 44)
-        Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Devoluciones"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.btnDevoluciones.Location = New System.Drawing.Point(508, 151)
+        Me.btnDevoluciones.Name = "btnDevoluciones"
+        Me.btnDevoluciones.Size = New System.Drawing.Size(142, 44)
+        Me.btnDevoluciones.TabIndex = 5
+        Me.btnDevoluciones.Text = "Devoluciones"
+        Me.btnDevoluciones.UseVisualStyleBackColor = True
         '
-        'Button7
+        'btnFunciones
         '
-        Me.Button7.Location = New System.Drawing.Point(338, 210)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(142, 44)
-        Me.Button7.TabIndex = 6
-        Me.Button7.Text = "Funciones"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.btnFunciones.Location = New System.Drawing.Point(338, 210)
+        Me.btnFunciones.Name = "btnFunciones"
+        Me.btnFunciones.Size = New System.Drawing.Size(142, 44)
+        Me.btnFunciones.TabIndex = 6
+        Me.btnFunciones.Text = "Funciones"
+        Me.btnFunciones.UseVisualStyleBackColor = True
         '
-        'Button8
+        'btnBoletos
         '
-        Me.Button8.Location = New System.Drawing.Point(508, 210)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(142, 44)
-        Me.Button8.TabIndex = 7
-        Me.Button8.Text = "Boletos"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.btnBoletos.Location = New System.Drawing.Point(508, 210)
+        Me.btnBoletos.Name = "btnBoletos"
+        Me.btnBoletos.Size = New System.Drawing.Size(142, 44)
+        Me.btnBoletos.TabIndex = 7
+        Me.btnBoletos.Text = "Boletos"
+        Me.btnBoletos.UseVisualStyleBackColor = True
         '
-        'Button9
+        'btnPeliculas
         '
-        Me.Button9.Location = New System.Drawing.Point(338, 269)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(142, 44)
-        Me.Button9.TabIndex = 8
-        Me.Button9.Text = "Peliculas"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.btnPeliculas.Location = New System.Drawing.Point(338, 269)
+        Me.btnPeliculas.Name = "btnPeliculas"
+        Me.btnPeliculas.Size = New System.Drawing.Size(142, 44)
+        Me.btnPeliculas.TabIndex = 8
+        Me.btnPeliculas.Text = "Peliculas"
+        Me.btnPeliculas.UseVisualStyleBackColor = True
         '
-        'Button10
+        'btnEstadisticas
         '
-        Me.Button10.Location = New System.Drawing.Point(508, 269)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(142, 44)
-        Me.Button10.TabIndex = 9
-        Me.Button10.Text = "Estadisticas"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.btnEstadisticas.Location = New System.Drawing.Point(508, 269)
+        Me.btnEstadisticas.Name = "btnEstadisticas"
+        Me.btnEstadisticas.Size = New System.Drawing.Size(142, 44)
+        Me.btnEstadisticas.TabIndex = 9
+        Me.btnEstadisticas.Text = "Estadisticas"
+        Me.btnEstadisticas.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
@@ -138,32 +138,32 @@ Partial Class MenuPrincipal
         Me.PictureBox1.TabIndex = 10
         Me.PictureBox1.TabStop = False
         '
-        'Button11
+        'btnCerrarSesion
         '
-        Me.Button11.Location = New System.Drawing.Point(420, 322)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(139, 23)
-        Me.Button11.TabIndex = 11
-        Me.Button11.Text = "Cerrar Sesion"
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.btnCerrarSesion.Location = New System.Drawing.Point(420, 322)
+        Me.btnCerrarSesion.Name = "btnCerrarSesion"
+        Me.btnCerrarSesion.Size = New System.Drawing.Size(139, 23)
+        Me.btnCerrarSesion.TabIndex = 11
+        Me.btnCerrarSesion.Text = "Cerrar Sesion"
+        Me.btnCerrarSesion.UseVisualStyleBackColor = True
         '
         'MenuPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(686, 357)
-        Me.Controls.Add(Me.Button11)
+        Me.Controls.Add(Me.btnCerrarSesion)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnEstadisticas)
+        Me.Controls.Add(Me.btnPeliculas)
+        Me.Controls.Add(Me.btnBoletos)
+        Me.Controls.Add(Me.btnFunciones)
+        Me.Controls.Add(Me.btnDevoluciones)
+        Me.Controls.Add(Me.btnEmpleados)
+        Me.Controls.Add(Me.btnVentas)
+        Me.Controls.Add(Me.btnProveedores)
+        Me.Controls.Add(Me.btnProductos)
+        Me.Controls.Add(Me.btnClientes)
         Me.Name = "MenuPrincipal"
         Me.Text = "Cinepelis"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -171,16 +171,16 @@ Partial Class MenuPrincipal
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
+    Friend WithEvents btnClientes As Button
+    Friend WithEvents btnProductos As Button
+    Friend WithEvents btnProveedores As Button
+    Friend WithEvents btnVentas As Button
+    Friend WithEvents btnEmpleados As Button
+    Friend WithEvents btnDevoluciones As Button
+    Friend WithEvents btnFunciones As Button
+    Friend WithEvents btnBoletos As Button
+    Friend WithEvents btnPeliculas As Button
+    Friend WithEvents btnEstadisticas As Button
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Button11 As Button
+    Friend WithEvents btnCerrarSesion As Button
 End Class

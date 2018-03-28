@@ -106,6 +106,18 @@
     <Compile Include="Interfaces\frm_devoluciones.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Interfaces\frm_funciones.Designer.vb">
+      <DependentUpon>frm_funciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frm_funciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\frm_peliculas.Designer.vb">
+      <DependentUpon>frm_peliculas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frm_peliculas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Interfaces\frm_productos.Designer.vb">
       <DependentUpon>frm_productos.vb</DependentUpon>
     </Compile>
@@ -116,6 +128,12 @@
       <DependentUpon>frm_proveedores.vb</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\frm_proveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\frm_ventaBoletos.Designer.vb">
+      <DependentUpon>frm_ventaBoletos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\frm_ventaBoletos.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Interfaces\frm_ventas.Designer.vb">
@@ -166,11 +184,20 @@
     <EmbeddedResource Include="Interfaces\frm_devoluciones.resx">
       <DependentUpon>frm_devoluciones.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frm_funciones.resx">
+      <DependentUpon>frm_funciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frm_peliculas.resx">
+      <DependentUpon>frm_peliculas.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\frm_productos.resx">
       <DependentUpon>frm_productos.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\frm_proveedores.resx">
       <DependentUpon>frm_proveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\frm_ventaBoletos.resx">
+      <DependentUpon>frm_ventaBoletos.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\frm_ventas.resx">
       <DependentUpon>frm_ventas.vb</DependentUpon>

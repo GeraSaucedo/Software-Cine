@@ -36,7 +36,6 @@ Partial Class frm_ventas
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -49,7 +48,6 @@ Partial Class frm_ventas
         Me.Button2 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -102,7 +100,7 @@ Partial Class frm_ventas
         'ComboBox5
         '
         Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Location = New System.Drawing.Point(162, 46)
+        Me.ComboBox5.Location = New System.Drawing.Point(164, 69)
         Me.ComboBox5.Name = "ComboBox5"
         Me.ComboBox5.Size = New System.Drawing.Size(50, 21)
         Me.ComboBox5.TabIndex = 111
@@ -110,7 +108,7 @@ Partial Class frm_ventas
         'ComboBox4
         '
         Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(106, 46)
+        Me.ComboBox4.Location = New System.Drawing.Point(108, 69)
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(50, 21)
         Me.ComboBox4.TabIndex = 110
@@ -118,7 +116,7 @@ Partial Class frm_ventas
         'ComboBox3
         '
         Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(50, 46)
+        Me.ComboBox3.Location = New System.Drawing.Point(52, 69)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(50, 21)
         Me.ComboBox3.TabIndex = 109
@@ -126,7 +124,7 @@ Partial Class frm_ventas
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(7, 49)
+        Me.Label4.Location = New System.Drawing.Point(9, 72)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(37, 13)
         Me.Label4.TabIndex = 108
@@ -135,7 +133,7 @@ Partial Class frm_ventas
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(10, 96)
+        Me.ComboBox2.Location = New System.Drawing.Point(12, 119)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(250, 21)
         Me.ComboBox2.TabIndex = 107
@@ -143,7 +141,7 @@ Partial Class frm_ventas
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(7, 80)
+        Me.Label6.Location = New System.Drawing.Point(9, 103)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(54, 13)
         Me.Label6.TabIndex = 106
@@ -152,11 +150,11 @@ Partial Class frm_ventas
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(7, 225)
+        Me.Label7.Location = New System.Drawing.Point(9, 149)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(39, 13)
+        Me.Label7.Size = New System.Drawing.Size(93, 13)
         Me.Label7.TabIndex = 104
-        Me.Label7.Text = "Cliente"
+        Me.Label7.Text = "Numero de cliente"
         '
         'TextBox8
         '
@@ -174,17 +172,9 @@ Partial Class frm_ventas
         Me.Label8.TabIndex = 102
         Me.Label8.Text = "ID"
         '
-        'DataGridView1
-        '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(10, 126)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(250, 85)
-        Me.DataGridView1.TabIndex = 112
-        '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(10, 241)
+        Me.TextBox1.Location = New System.Drawing.Point(12, 165)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(250, 20)
         Me.TextBox1.TabIndex = 113
@@ -192,15 +182,15 @@ Partial Class frm_ventas
         'DataGridView2
         '
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Location = New System.Drawing.Point(285, 62)
+        Me.DataGridView2.Location = New System.Drawing.Point(285, 69)
         Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.Size = New System.Drawing.Size(333, 100)
+        Me.DataGridView2.Size = New System.Drawing.Size(333, 155)
         Me.DataGridView2.TabIndex = 114
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(283, 46)
+        Me.Label9.Location = New System.Drawing.Point(282, 53)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(55, 13)
         Me.Label9.TabIndex = 115
@@ -209,7 +199,7 @@ Partial Class frm_ventas
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(330, 171)
+        Me.Label10.Location = New System.Drawing.Point(63, 204)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(31, 13)
         Me.Label10.TabIndex = 116
@@ -217,7 +207,7 @@ Partial Class frm_ventas
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(367, 168)
+        Me.TextBox2.Location = New System.Drawing.Point(100, 201)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(162, 20)
         Me.TextBox2.TabIndex = 117
@@ -225,7 +215,7 @@ Partial Class frm_ventas
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(367, 198)
+        Me.ComboBox1.Location = New System.Drawing.Point(100, 231)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(162, 21)
         Me.ComboBox1.TabIndex = 118
@@ -233,7 +223,7 @@ Partial Class frm_ventas
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(283, 201)
+        Me.Label11.Location = New System.Drawing.Point(16, 234)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(78, 13)
         Me.Label11.TabIndex = 119
@@ -269,7 +259,7 @@ Partial Class frm_ventas
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 33)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 38)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(631, 10)
         Me.PictureBox1.TabIndex = 123
@@ -301,7 +291,6 @@ Partial Class frm_ventas
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.DataGridView2)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.ComboBox5)
         Me.Controls.Add(Me.ComboBox4)
         Me.Controls.Add(Me.ComboBox3)
@@ -318,7 +307,6 @@ Partial Class frm_ventas
         Me.Controls.Add(Me.Label14)
         Me.Name = "frm_ventas"
         Me.Text = "frm_ventas"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -339,7 +327,6 @@ Partial Class frm_ventas
     Friend WithEvents Label7 As Label
     Friend WithEvents TextBox8 As TextBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents DataGridView2 As DataGridView
     Friend WithEvents Label9 As Label
